@@ -22,7 +22,7 @@ if(process.env.NODE_ENV === 'dev'){
     urlDB = 'mongodb://localhost:27017/cafe'
    
 } else {
-    urlDB = 'mongodb+srv://martintodojunto:CYSR0ElXSVNJ2BLV@cluster0.wntjb.mongodb.net/cafe'
+    urlDB = process.env.MONGO_URI // creamos la variable en consola con heroku para protegerla en GitHub => heroku config:set MONGO_URI="escribirurl"
 }
 
 
