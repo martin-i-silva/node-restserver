@@ -9,7 +9,20 @@ process.env.PORT = process.env.PORT || 3000;
 // Entorno
 // ======================
 // si la variable no existe entonces estoy en entorno de desarrollo
+
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
+
+// ======================
+// Vencimiento del token
+// ======================
+// expira en 60 seg 60 min 24 hs 30 dias
+process.env.CADUCIDAD_TOKEN =  60 * 60 * 24 * 30
+
+// ======================
+// SEED o semilla de autenticacion 
+// ======================
+
+process.env.SEED = process.env.SEED || 'este-es-el-seed-desarrollo'
 
 
 // ======================
