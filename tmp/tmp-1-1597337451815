@@ -1,0 +1,20 @@
+Comentar varias lineas
+	ctl+k+c
+descomentar varias lineas 
+	ctl+k+c
+copiar todo una linea
+	ctl+c al principio sin seleccionar nada
+multiple cursor para escribir
+	mantener alt + click en cada linea
+Enter hacia arriba
+	ctl+shift+enter
+
+emmet
+div.x tab -- genera un div con la class = x
+div#x tab -- genera un div con la id = x
+a*5 tab -- genera 5 elementos a
+ul>li*5 tab -- genera 5 elementos li dentro de un elemento ul
+Ahora vas a montar un menú de navegación en un periquete sin tener que preocuparte de abrir y cerrar etiquetas, copiar y pegar líneas, etc. Prueba con esto: ul.navbar>(li.nav>a.menuitem)*5 y pulsas tabulador, verás que te genera un código en el que sólo tienes que ir escribiendo el texto que te falta e ir usando el tabulador para terminar de rellenar toda la información.
+Teclea html:5 y dale al tabulador.
+Introduce form>(label>input:text)*4 y tendrás un formulario con 4 campos con etiquetas, clases, etc.
+Teclea p*5>lorem y tendrás cinco párrafos de texto para rellenar tus diseños de prueba.
