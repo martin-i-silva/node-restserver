@@ -1,3 +1,3 @@
 ## node-restserver
 
-Practicas con express y body-parser
+Practicas con el framework express y body-parser
